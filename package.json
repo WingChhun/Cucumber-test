@@ -1,0 +1,19 @@
+{
+  "name": "cucumber-test",
+  "version": "1.0.0",
+  "description": "Repository to run smaple tests to learn CucumberJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WingChhun/Cucumber-test"
+  },
+  "author": "James Chhun",
+  "license": "ISC",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "cucumber": "^4.2.1"
+  }
+}
