@@ -1,3 +1,6 @@
+
+@test
+
 Feature: Initial test
   Test to  make sure cucumber is working
 
