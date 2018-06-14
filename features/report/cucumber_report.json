@@ -1,0 +1,65 @@
+[
+  {
+    "description": "  Test to  make sure cucumber is working",
+    "keyword": "Feature",
+    "name": "Initial test",
+    "line": 4,
+    "id": "initial-test",
+    "tags": [
+      {
+        "name": "@test",
+        "line": 2
+      }
+    ],
+    "uri": "features/intialTest.feature",
+    "elements": [
+      {
+        "id": "initial-test;starter",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Starter",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "This is a test",
+            "match": {
+              "location": "features/step_definitions/stepdefs.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "test starts",
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "it should pass",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

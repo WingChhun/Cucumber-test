@@ -4,8 +4,10 @@
   "description": "Repository to run smaple tests to learn CucumberJS",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js",
-    "test-test": "cucumber-js --tag '@test'"
+    "cucumber": "cucumber-js",
+    "cucumber-tag-test": "cucumber-js --tag '@test'",
+    "cucumber-report": "./node_modules/cucumber/bin/cucumber-js  -f json:./features/report/cucumber_report.json",
+    "cucumber-html": "node cucumberReport.js"
   },
   "repository": {
     "type": "git",
@@ -16,6 +18,7 @@
   "devDependencies": {
     "assert": "^1.4.1",
     "cucumber": "^4.2.1",
-    "cucumber-html-reporter": "^4.0.2"
+    "cucumber-html-reporter": "^4.0.2",
+    "node-fetch": "^2.1.2"
   }
 }
